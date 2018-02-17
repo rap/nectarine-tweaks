@@ -1,0 +1,18 @@
+@-moz-document domain('nectarine.rocks')
+{
+  .floating-action-button {
+    left: 12px;
+    top: 74px;
+    bottom: auto;
+    right: auto;
+  }
+}
+
+@-moz-document url-prefix('https://nectarine.rocks/profile')
+  .floating-action-button {
+    left: 40px;
+    top: 194px;
+    bottom: auto;
+    right: auto;
+  }
+}
